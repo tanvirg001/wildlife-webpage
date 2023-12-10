@@ -1,10 +1,6 @@
 'use strict';
 
-
-
-/**
- * navbar toggle
- */
+/** navbar toggle */
 
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
 const navbar = document.querySelector("[data-navbar]");
@@ -18,9 +14,7 @@ for (let i = 0; i < navElemArr.length; i++) {
   });
 }
 
-/**
- * toggle navbar when click any navbar link
- */
+/** toggle navbar when click any navbar link */
 
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
@@ -30,13 +24,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
-
-
-
-
-/**
- * header active when window scrolled down
- */
+/** header active when window scrolled down */
 
 const header = document.querySelector("[data-header]");
 
